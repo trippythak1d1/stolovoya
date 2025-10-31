@@ -1,0 +1,507 @@
+body { 
+    margin: 0;
+    background-color: #202020;
+    
+}
+header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 9.259vh;
+    box-sizing: border-box;
+    border-bottom: 2px dashed rgba(103, 101, 101, 0.5);
+
+}
+.space-between { 
+    justify-content: space-between;
+}
+nav { 
+    align-items: center;
+    display: flex;
+    width: 68.073vw;
+    height: 3.981vh;
+}
+nav a { 
+    text-transform: uppercase;
+    font-family: "Kreadon";
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+nav h1 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FBB23F;
+    margin: 0
+}
+
+
+
+/* main */
+.read-block { 
+    padding: 61px 0;
+    /* margin: 0 auto; */
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    border-bottom: 2px dashed rgba(103, 101, 101, 0.5);
+}
+.container {
+    /* display: flex;  */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 151px;
+}
+.photo { 
+    /* height: 1%; */
+}
+.Ellipse { 
+    position: absolute;
+    z-index: -10000;
+    right: 6%;
+    top: 40%;
+}
+.Ellipse1 { 
+    position: absolute;
+    z-index: -10000;
+    top: 5%;
+    left: 10%;
+}
+.Ellipse2 { 
+    position: absolute;
+    z-index: -10000;
+    top: 70%;
+    left: 7%;
+}
+.Ellipse4 { 
+    position: absolute;
+    left: 90%;
+    top: 10%;
+}
+.content { 
+    display: flex;
+    align-items: center;
+    width: 73.958vw;
+    height: 83.241vh;
+}
+.block { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 29.792vw;
+    /* height: 21.852vh; */
+}
+.block h2 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FBB23F;
+    text-transform: uppercase;
+    margin: 0;
+}
+.block-text p {
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.learn-more { 
+    width: 250px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.learn-more a { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+/* second section */
+
+.second { 
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 2px dashed rgba(103, 101, 101, 0.5);
+}
+
+h3 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.products-slider { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.photo1 { 
+    object-fit: contain;
+    /* height: 80%; */
+}
+.photo2 { 
+    object-fit: contain;
+    /* height: 80%; */
+}
+.photo3 {
+    object-fit: contain;
+    /* height: 90%; */
+}
+.photo4 {
+    object-fit: cover;
+    /* height: 90%; */
+}
+.cart-text { 
+    display: flex;
+    margin-top: 10px;
+}
+
+.cart-text h4 { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.cart-text p { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    margin: 0;
+}
+.block-popular-products { 
+    position: relative;
+    display: grid;
+    gap: 15px;
+}
+
+
+
+/* info-section */
+.info-block { 
+    display: grid;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    
+}
+.block-about { 
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px dashed rgba(103, 101, 101, 0.5);
+}
+.Ellipse5 { 
+    position: absolute;
+    z-index: -3;
+    top: 17%;
+    left: -6.8%;
+}
+.Ellipse6 { 
+    position: absolute;
+    top: 8.7%;
+    left: 78.2%;
+}
+.Ellipse7 { 
+    position: absolute;
+    top: 66.5%;
+    left: 96.8%;
+}
+
+.content-info {     
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.content-info2 { 
+    display: grid; 
+    align-content: space-between;
+}
+h5 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.content-info2 p { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.content-info3 { 
+    display: grid;
+    align-content: flex-end;
+    max-width: 23.958vw;
+    /* margin-top: 110px; */
+}
+.content-info3 p { 
+    height: auto;
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.running-line { 
+    display: flex;
+    margin-top: 25px;
+}
+.running-line p { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+
+
+.block-reviews {
+    padding: 25px 0;
+    display: grid;
+    justify-content: center;
+    gap: 25px;
+    box-sizing: border-box;
+    border-bottom: 2px dashed rgba(103, 101, 101, 0.5);
+}
+.reviews { 
+    padding: 20px;
+    border: 2px dashed rgba(103, 101, 101, 0.5);
+}
+.reviews-slider { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.name-estimation h6{ 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.name-estimation{ 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ava-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviews-info { 
+    display: flex;
+    width: 18.906vw; 
+    flex-direction: column;
+    gap: 13px;
+}
+
+.reviews-info p {
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.reviews-content { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.Ellipse8 { 
+    position: absolute;
+    top: -25.6%;
+    left: -34.5%;
+}
+.block-reviews h2 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 25px 0 0 0 ;
+}
+
+.next-slider-reviews { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer { 
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-footer-info { 
+    width: 73.958vw;
+    height: 27.778vh;
+    display: flex;
+    position: relative;
+}
+.Ellipse9 { 
+    position: absolute;
+    left: -11.1%;
+    top: -17.1%;
+}
+.Ellipse11 { 
+    position: absolute;
+    top: -38%;
+    left: -11.1%;
+}
+.adress { 
+    width: 13.438vw;
+    height: 10.185vh;
+    display: flex;
+    flex-direction: column;
+}
+.adress h1 { 
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.adress p { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.work-time { 
+    display: flex;
+    flex-direction: column;
+    height: 27.778vh;
+    width: 14.688vw;
+}
+.work-time h1 { 
+    text-align: center;
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.number { 
+    display: flex;
+    flex-direction: column;
+    height: 10.185vh;
+    width: 8.438vw;
+}
+.number h1 { 
+    text-align: right;
+    font-family: 'Scumbria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.number p { 
+    text-align: right;
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+.week-time { 
+    height: 23.241vh;
+    display: flex;
+}
+.time { 
+    display: flex;
+    flex-direction: column;
+}
+.time p { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.time h2 { 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FBB23F;
+    margin: 0;
+}
+.week { 
+    display: flex;
+    flex-direction: column;
+}
+.week p{ 
+    font-family: 'Kreadon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
