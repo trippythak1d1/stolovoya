@@ -3,6 +3,34 @@ body {
     background-color: #202020;
     
 }
+
+
+@font-face {
+    font-family: 'Scumbria';
+    src: url('fonts/Scumbria Bold.otf') format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Kreadon */
+@font-face {
+    font-family: 'Kreadon';
+    src: url('fonts/kreadon-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kreadon';
+    src: url('fonts/Kreadon-Bold.ttf') format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 header { 
     display: flex;
     align-items: center;
