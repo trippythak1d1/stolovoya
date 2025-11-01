@@ -16,8 +16,9 @@ body {
 /* Kreadon */
 @font-face {
     font-family: 'Kreadon';
-    src: url('fonts/Kreadon-Regular.ttf') format("truetype")
-         url('fonts/Kreadon-Medium.ttf') format('truetype');
+    src: url('fonts/Kreadon-Regular.woff2') format('woff2'),
+         url('fonts/Kreadon-Regular.woff') format('woff'),
+         url('fonts/Kreadon-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
